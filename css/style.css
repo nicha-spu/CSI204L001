@@ -4,3 +4,19 @@
     font-size: larger;
     color: #0a4ac9;
 }
+.btn{
+    background-color:
+    beige;
+    padding: 5px; margin: 5px;
+    color:
+    •darkgreen;
+    border: 2px solid darkslategray;
+    
+}.btn:hover{
+    background-color: darkgreen;
+    color: beige;
+}
+.btn:active{
+    top: 3px;
+    position: relative;
+}
