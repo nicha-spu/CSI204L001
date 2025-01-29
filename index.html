@@ -4,21 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Git & GitHub Setup</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <p>Workshop #1: Installation and Configuration Git & GitHub with Visual Studio Code</p>
-    <div style="background-color: azure; border: solid 2px•darkmagenta;">
-        <form action="">
-            <label>Part edit: Demo-Project.</label>
-            <hr>
-            <p><label>Username : </label><input type="text"></p>
-            <label>Password : </label><input type="password">
-            <label >Email :</label><input type="email">
-            <p><input type="button" value="Connecting…" class="btn" /></p>
-        </form>
+    <div class="container">
+        <h1>Workshop #1: Installation and Configuration Git & GitHub with Visual Studio Code</h1>
+        
+        <div class="form-container">
+            <h2>Part Edit: Demo-Project</h2>
+            <form action="#" method="POST">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <input type="submit" value="Connecting..." class="btn">
+            </form>
+        </div>
     </div>
 </body>
 

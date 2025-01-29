@@ -1,22 +1,108 @@
-/* welcome to..... */
-*{
-    font-family: fantasy;
-    font-size: larger;
-    color: #0a4ac9;
+/* Reset default margin/padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.btn{
-    background-color:
-    beige;
-    padding: 5px; margin: 5px;
-    color:
-    •darkgreen;
-    border: 2px solid darkslategray;
-    
-}.btn:hover{
-    background-color: darkgreen;
-    color: beige;
+
+/* Set a nice font family and text color */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
-.btn:active{
-    top: 3px;
-    position: relative;
+
+/* Container for the form and title */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 24px;
+    color: #1a73e8;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Styling for the form */
+.form-container {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input styling */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #1a73e8;
+    outline: none;
+}
+
+/* Submit button styling */
+.btn {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0d56a0;
+}
+
+.btn:active {
+    background-color: #0c4c8b;
+    transform: translateY(2px);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
 }
