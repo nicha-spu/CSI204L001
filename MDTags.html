@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 20px;
+    }
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    md-tags {
+        display: block;
+        background: #f0f0f0;
+        padding: 10px;
+        margin: 10px 0;
+        border-left: 5px solid #007BFF;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>ตัวอย่างการใช้งาน MDTags</h1>
+        
+        <md-tags>
+            **Bold Text**
+        </md-tags>
+
+        <md-tags>
+            *Italic Text*
+        </md-tags>
+
+        <md-tags>
+            # Header 1
+        </md-tags>
+
+        <md-tags>
+            ## Header 2
+        </md-tags>
+
+        <md-tags>
+            ### Header 3
+        </md-tags>
+
+        <md-tags>
+            - รายการที่หนึ่ง
+            - รายการที่สอง
+            - รายการที่สาม
+        </md-tags>
+
+        <md-tags>
+            1. ขั้นตอนที่หนึ่ง
+            2. ขั้นตอนที่สอง
+            3. ขั้นตอนที่สาม
+        </md-tags>
+
+        <md-tags>
+            <a href="https://www.example.com" target="_blank">🔗 คลิกที่นี่เพื่อไปยังเว็บไซต์</a>
+        </md-tags>
+
+        <md-tags>
+            <img src="./image/image.jpg" alt="ตัวอย่างรูปภาพ" style="max-width:100%; border-radius: 10px;">
+            <figcaption>🖼 ตัวอย่างรูปภาพ</figcaption>
+        </md-tags>
+
+        <md-tags>
+            `ตัวอย่างโค้ด`
+            ```javascript
+            function example() {
+                console.log('Hello, World!');
+            }
+            ```
+        </md-tags>
+    </div>
+    
+</body>
+</html>
